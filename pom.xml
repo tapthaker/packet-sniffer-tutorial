@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+ 
+  <groupId>com.dhyan</groupId>
+  <artifactId>packagesniffer</artifactId>
+  <version>1.0-SNAPSHOT</version>
+ 
+  <properties>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+    <exec.mainClass>com.dhyan.packetsniffer.Example1</exec.mainClass>
+  </properties>
+ 
+  <dependencies>
+	<!-- https://mvnrepository.com/artifact/jpcap/jpcap -->
+	<dependency>
+	    <groupId>jpcap</groupId>
+	    <artifactId>jpcap</artifactId>
+	    <version>0.1.18-002</version>
+	</dependency>
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <id>clojars</id>
+      <name>clojars</name>
+      <url>https://repo.clojars.org/</url>
+    </repository>
+   </repositories>
+
+
+</project>
